@@ -6,7 +6,7 @@ fn main() {
     println!("{:?}", v);
 }
 
-fn test_one_logic(a: &mut [i32; 9]) ->  Vec<i32> {
+fn test_one_logic(a: &mut [i32]) ->  Vec<i32> {
     let mut v: Vec<i32> = Vec::new();
     let mut middle_len = a.len() / 2;
     if a.len() & 2 == 0 {
